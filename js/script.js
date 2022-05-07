@@ -52,7 +52,7 @@ let checkOrder = () => {
     }
 
     if(clickedOrder.length == order.length) {
-        alert('Pontuação: ${score}\nVocê acertou! Iniciando próximo nível!');
+        alert(`Pontuação: ${score}\nVocê acertou! Iniciando próximo nível!`);
         nextLevel();
     }
 }
